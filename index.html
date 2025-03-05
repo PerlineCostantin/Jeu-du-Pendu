@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/fun.css">
+        <script src="js/js4game.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Jeu du pendu</h1>
+           
+        
+        </header>
+        <div id="gameContainer">
+            
+            <div id="button-container">
+            <p id="newgame"><input type="button-styled" value="Nouvelle Partie"></p>
+            <p id="continue"><input type="button-styled" value="Continuer"></p>
+            </div>
+            <div id="gimage">
+                <svg width="258" height="400">
+                        <rect y="380" x="2" width="250" height="10" style="fill:rgb(255, 0, 0);stroke-width:4;stroke:black" />
+
+                        <line x1="20" y1="380" x2="20" y2="10" style="stroke:rgb(0, 0, 0);stroke-width:4"/>
+
+                        <line x1="18" y1="10" x2="140" y2="10" style="stroke:black;stroke-width:4"/>
+
+                        <line id="i1" x1="138" y1="10" x2="138" y2="50" style="stroke:black;stroke-width:4"/>
+                    
+                       <!--<circle id="i2" cx="138" cy="80" r="30" stroke="black" stroke-width="4" fill="yellow" />
+                       -->
+                        <image id="i2" href="images/clown.png" x="65" y="10" width="140" height="140" />
+
+                        <line id="i3" x1="138" y1="140" x2="138" y2="250" style="stroke:rgb(253, 245, 9);stroke-width:4"/>
+
+                        <line id="i4" x1="138" y1="150" x2="100" y2="200" style="stroke:rgb(155, 57, 252);stroke-width:4"/>
+
+                        <line id="i5" x1="138" y1="150" x2="178" y2="200" style="stroke:rgb(255, 65, 198);stroke-width:4"/>
+
+                        <line id="i6" x1="138" y1="250" x2="100" y2="310" style="stroke:rgb(134, 251, 25);stroke-width:4"/>
+
+                        <line id="i7" x1="138" y1="250" x2="178" y2="310" style="stroke:rgb(153, 251, 48);stroke-width:4"/>
+                </svg>
+            </div>
+            <div id="gcontrols">
+                <p>Click on a character and guess the word!</p>
+                <p id="word2guess"></p>
+                <p id="gchars">
+                    <span>A</span>
+                    <span>B</span>
+                    <span>C</span>
+                    <span>D</span>
+                    <span>E</span>
+                    <span>F</span>
+                    <span>G</span>
+                    <span>H</span>
+                    <span>I</span>
+                    <span>J</span>
+                    <span>K</span>
+                    <span>L</span>
+                    <span>M</span>
+                    <span>N</span>
+                    <span>O</span>
+                    <span>P</span>
+                    <span>Q</span>
+                    <span>R</span>
+                    <span>S</span>
+                    <span>T</span>
+                    <span>U</span>
+                    <span>V</span>
+                    <span>W</span>
+                    <span>X</span>
+                    <span>Y</span>
+                    <span>Z</span>
+                </p>
+                <p id="restartb"><input type="button" value="Reset Game"></p>
+            </div>
+        </div>
+        <section id="menu">
+            <div id="log-in">
+                <h3>Connexion</h3>
+                <label><b>Nom d'utilisateur</b></label>
+                <input id="usernameL" type="text" placeholder="Entrer le nom d'utilisateur" name="username" required>
+                <label><b>Mot de passe</b></label>
+                <input id ="passwordL" type="password" placeholder="Entrer le mot de passe" name="password" required>
+                <p id="valider"><input type="button" value="valider"></p>
+            </div>
+            <div id="sign-in">
+                <h4>Inscription</h4>
+                <label><b>Nom d'utilisateur</b></label>
+                <input id= "usernameS" type="text" placeholder="Entrer le nom d'utilisateur" name="username" required>
+                <label><b>Mot de passe</b></label>
+                <input id="passwordS" type="password" placeholder="Entrer le mot de passe" name="password" required>
+                <p id="valider"><input type="button" value="valider"></p>
+            </div>
+        
+            
+
+            </section>
+
+           
+
+        </div>
+        
+
+    </body>
+</html>

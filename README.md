@@ -11,3 +11,5 @@ Attention, il y a certeines contraintes pour ce mot de passe afin d'améliorer l
 - 8 caractères minimum  
 - Au moins une lettre  
 - Au moins un chiffre  
+
+Remarque : le jeu ne fonctionne plus à cause d'un problème de serveur.  

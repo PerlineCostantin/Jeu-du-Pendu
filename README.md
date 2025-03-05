@@ -11,5 +11,3 @@ Attention, il y a certeines contraintes pour ce mot de passe afin d'améliorer l
 - 8 caractères minimum  
 - Au moins une lettre  
 - Au moins un chiffre  
-
-Ensuite, rentrer le même identifiant et mot de passe dans la boite "connexion".
